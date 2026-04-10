@@ -1,7 +1,6 @@
 <p align="center">
-  <img src=".github/assets/logo.svg" alt="VoidClientLogo" width="300"/>
+  <img src="https://i.imgur.com/ieaAZyE.jpeg" alt="VoidClientLogo" width="300"/>
 </p>
-
 ---
 
 <p align="center">High-performance Minecraft PvP launcher built for maximum FPS, low latency, and a competitive edge.</p>
