@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/logo.svg" alt="Pulsar Logo" width="300"/>
+  <img src=".github/assets/logo.svg" alt="VoidClientLogo" width="300"/>
 </p>
 
 
