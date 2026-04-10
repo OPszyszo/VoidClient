@@ -2,62 +2,39 @@
   <img src=".github/assets/logo.svg" alt="VoidClientLogo" width="300"/>
 </p>
 
+---
+
+<p align="center">High-performance Minecraft PvP launcher built for maximum FPS, low latency, and a competitive edge.</p>
 
 ---
-<p align="center">High-performance, cross-platform utility designed to redefine how you acquire and manage digital media.</p>
 
----
 ## Key Features
-* **Modern & Lightweight**: Built with **Tauri v2** and **Rust**, offering a lightning-fast, web-based UI with the memory efficiency of a native application.
-* **Smart Queue System**: Add multiple media to a queue, manage priorities, track progress in real-time, and process them efficiently in the background.
-* **Auto-Dependency Management**: Automatically downloads and configures the latest versions of **Pulsar Bridge** (custom JSON wrapper) and **ffmpeg** upon first launch via a built-in splash screen. No manual setup required.
-* **Cross-Platform**: Runs natively on **Windows**, **macOS** (Apple Silicon), and **Linux**.
-* **Flexible Format Control**: Seamlessly choose between video/audio containers and resolutions, embed metadata/thumbnails and many more features.
-* **Advanced Options**: Built-in support for Geo-Bypass, specific time-range downloads, and extracting authentication cookies directly from your browser.
-* **Theming & Localization**: Dark, Light, and System modes, along with multi-language UI support.
-## How to Install
-1. Go to the **[Releases](https://github.com/fuzjajadrowa/Pulsar/releases)** tab and download the latest version for your operating system.
-### For Windows (x86_64)
-* **Installer (.exe)**: Download the NSIS installer, run it, and follow the on-screen instructions. Pulsar will be available in your Start Menu.
-* **Portable (.zip)**: Extract the archive to any folder and run `Pulsar.exe`.
+* **Optimized Performance**: Designed for high FPS and smooth gameplay, even on lower-end systems.
+* **PvP Focused**: Tweaked settings and features to improve hit registration, responsiveness, and overall combat feel.
+* **Fast Launch System**: Minimal startup time so you can get in-game instantly.
+* **Auto-Configuration**: Automatically applies optimal settings on first launch.
+* **Version Management**: Easily switch between different Minecraft versions tailored for PvP.
+* **Account Management**: Support for multiple accounts with quick switching.
+* **Lightweight Client**: Low RAM and CPU usage compared to standard launchers.
+* **Custom UI**: Clean, modern interface with Dark/Light modes.
 
-### For macOS (Apple Silicon / aarch64)
-* **Installer (.pkg)**: Open the `.pkg` file and follow the on-screen instructions to install Pulsar.
-* **Portable (.app.tar.gz)**: Unzip the file and run the `Pulsar.app` bundle.
-    * *Note:* If you encounter a damage warning, type in command prompt: ```sudo xattr -cr [Path to Pulsar.app]``` and select **Open** to authorize the first launch.
-### For Linux (x86_64)
-* **Debian/Ubuntu (.deb)**: Install via your package manager:
-  ```bash
-  sudo apt install ./Pulsar-X.X.X-Linux.deb
-  ```
+## System Requirements
+* **OS**: Windows 10 / 11 (64-bit)
+* **RAM**: 4GB minimum (8GB recommended)
+* **GPU**: Any GPU supporting OpenGL 3.3+
+* **Storage**: ~500MB free space
+
+## How to Install (Windows)
+1. Download the latest version.
+2. Run the **.exe installer** and follow the setup instructions.
+
+### Portable Version
+* Extract the **.zip** file and run `VoidClient.exe`.
+
 ## Building from Source
-To build Pulsar yourself, ensure you have **Node.js (v20+)** and the **Rust stable** toolchain installed.
-1. Install OS Dependencies
-   * Windows / macOS: Usually no extra system packages are required beyond build tools (C++ build tools / Xcode Command Line Tools).
-   * Linux (Ubuntu/Debian):
-   ```bash
-   sudo apt-get update
-   sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf
-   ```
-2. Clone the repository
+Make sure you have **Node.js (v20+)** and **Rust (stable)** installed.
+
+1. Clone repository
 ```bash
-  git clone https://github.com/fuzjajadrowa/Pulsar.git
-  cd Pulsar
-```
-3. Install node packages
-```bash
-  npm install
-```
-4. Build the application
-To compile a release build of the application:
-  ```bash
-    npx tauri build
-  ```
-The compiled binaries will be located in src-tauri/target/release/bundle/.
-If you just want to run the app in development mode, use:
-  ```bash
-    npx tauri dev
-  ```
-## License
-Distributed under the terms specified in the LICENSE file.
-Powered by [Tauri](https://v2.tauri.app/), [yt-dlp](https://github.com/yt-dlp/yt-dlp), and [ffmpeg](https://ffmpeg.org/).
+git clone <your-repo-url>
+cd VoidClient
