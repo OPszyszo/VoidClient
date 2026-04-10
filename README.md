@@ -27,14 +27,3 @@
 ## How to Install (Windows)
 1. Download the latest version.
 2. Run the **.exe installer** and follow the setup instructions.
-
-### Portable Version
-* Extract the **.zip** file and run `VoidClient.exe`.
-
-## Building from Source
-Make sure you have **Node.js (v20+)** and **Rust (stable)** installed.
-
-1. Clone repository
-```bash
-git clone <your-repo-url>
-cd VoidClient
